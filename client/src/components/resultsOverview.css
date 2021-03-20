@@ -1,0 +1,25 @@
+.ResultsOverview {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px var(--usafa-blue);
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.ResultsOverview__innerContainer {
+  display: flex;
+  flex-direction: column;
+}
+.ResultsOverview__item {
+  width: 100%;
+  font-size: 16px;
+}
+.ResultsOverview__itemTitle {
+  font-weight: 700;
+}
+.ResultsOverview__title {
+  background-color: var(--orange-crayola);
+  width: 230px;
+  border-radius: 12px;
+  padding: 8px 12px;
+}

@@ -1,8 +1,8 @@
-import data from './data';
+import earthquakeData from './earthquakeData';
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
-  data,
+  earthquakeData,
 });
 
 export default rootReducer;
